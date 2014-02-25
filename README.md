@@ -1,8 +1,8 @@
-# json-mask-stream
+<img src="https://raw.github.com/angleman/json-mask-stream/master/logo.jpg" align="right" width="354px" />
+# json-mask-stream 
 
 Pass thru specific parts of a JSON object strings in a stream and **preserves the structure of the included elements**. 
 
-<img src="https://raw.github.com/angleman/json-mask-stream/master/logo.jpg" align="right" width="354px" />
 
 ## Install
 
