@@ -9,11 +9,7 @@ function JsonMaskStream(mask) {
 	var self = this;
  
 	self.mask = mask;
- 
-	config = (config) ? conflate(defaults, config) : defaults;
- 
-	maxmind.init(config.dataPath, config);
- 
+  
 	stream.call(self, { objectMode: true });
  
 	self._transform = function (data, encoding, callback) {

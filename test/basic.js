@@ -4,9 +4,9 @@ var should         = require('should')
 
 
 describe('create()', function() {
-    describe('no arguments', function() {
+    describe('basic arguments', function() {
         it('exists', function() {
-			var jsonMaskStream = new JsonMaskStream({ dataPath: 'first,second' });
+			var jsonMaskStream = new JsonMaskStream('first,second');
             should.exist(jsonMaskStream);
         });
     });
