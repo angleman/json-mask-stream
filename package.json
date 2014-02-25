@@ -1,7 +1,7 @@
 {
   "name": "json-mask-stream",
   "version": "0.1.0",
-  "description": "Pass thru specific parts of a JSON object strings in a stream",
+  "description": "Filter stream that keeps selected JSON object strings that retains selected object structures",
   "main": "index.js",
   "scripts": {
       "test": "mocha -R list test/*.js"
