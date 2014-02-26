@@ -21,6 +21,13 @@
     "name": "angleman"
   },
   "license": "MIT",
+  "repository" : { 
+	"type" : "git",
+    "url" : "https://github.com/angleman/json-mask-stream.git"
+  },
+  "bugs": { 
+	  "url" : "https://github.com/angleman/json-mask-stream/issues"
+  },
   "dependencies": {
     "readable-stream": "~1.0.26",
     "json-mask": "~0.2.0"
