@@ -1,6 +1,6 @@
 {
   "name": "json-mask-stream",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Filter stream that keeps selected JSON object strings that retains selected object structures",
   "main": "index.js",
   "scripts": {
